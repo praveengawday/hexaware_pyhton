@@ -1,0 +1,72 @@
+a=10;
+print(a);
+
+
+a=10;
+b=20;
+
+print(a+b);
+print(a*b);
+print(a/b);
+
+
+print("logical");
+x=100;
+y=200;
+
+if x==1080 or y==206:
+    print("hy")
+
+else:
+    print("hello")
+
+
+print("-----------------------");
+
+
+print("-------FOR---------")
+
+'''
+for i in range(1,10,2):
+    print(i);
+    
+
+start=int(input("enter start number"));
+myrange=int(input("enter the range"))
+incremtn=int(input("enter the icremtn"))
+
+for i in range(start,myrange,incremtn):
+          print(i);
+'''
+
+'''
+for i in range(20):
+    if(i%2==0):
+        print("even:",i);
+print("----------")
+'''
+
+
+for i in range(20):
+    if(i==5):
+        print("  ");
+    else :
+        print("hi",i)
+
+
+print("-----PASS-------")
+
+myname=input("enter the name");
+if myname=="praveen":
+    #print("hi",myname)
+    pass;
+else:
+        print("invalid")
+
+
+
+
+
+
+
+
